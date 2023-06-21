@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+.buttonRolagem{
+    height: auto;
+    text-align: center;
+    justify-content: space-around;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    
+}
+button{
+    font-size: 18px;
+    color:white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: #d21617;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+button:hover{
+    background-color: black;
+}
+@media (max-width: 600px) {
+    .buttonRolagem {
+      text-align: center;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+   
+}
+
+#Banner{
+    background-image:url('../../assets/the-batman-3.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 40vw;
+    
+}
+
+
+.flexbox-container{
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+    align-items: center;
+    background-color: black;
+  
+}
+.album1{
+    background-repeat: no-repeat;
+    border: 5px groove#de2932;
+}
+.album2{
+    background-repeat:no-repeat;
+    border: 5px groove #DE2932;
+    
+ }
+.album3{
+    background-repeat:no-repeat;
+    border:  5px groove #DE2932;
+}
+.album4{
+    background-repeat:no-repeat;
+    border:  5px groove #DE2932;
+}
+.album5{
+    background-repeat:no-repeat;
+    border:  5px groove #DE2932;
+}
+p{
+    color:aliceblue;
+    font-family:'Kdam Thmor Pro', sans-serif ;
+}
